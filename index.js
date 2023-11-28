@@ -2,6 +2,7 @@
 import { finances } from "./finance-data.js";
 
 // Calculates the total number of arrays in the 2d array
+const totalMonths = finances.length;
 
 // Calculates the total profit by reducing the profit value in the 2d array
 
