@@ -8,6 +8,9 @@ const totalMonths = finances.length;
 const totalProfit = finances.reduce((a, b) => a + b[1], 0);
 
 // Create an array of the monthly changes
+const monthlyChange = finances.map((row, index) => {
+  return index < finances.length - 1 ? finances[index + 1][1] - row[1] : 0;
+});
 
 // Calculate Total Monthly Change
 
