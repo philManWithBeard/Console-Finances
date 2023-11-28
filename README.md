@@ -2,11 +2,11 @@
 
 This project iterates over a 2D array of monthly profits to calculate:
 
-Total Months
-Total Profit
-Average Change
-Greatest Increase in Profits/Losses
-Greatest Decrease in Profits/Losses
+- Total Months
+- Total Profit
+- Average Change
+- Greatest Increase in Profits/Losses
+- Greatest Decrease in Profits/Losses
 
 # Install
 
@@ -19,3 +19,7 @@ Greatest Decrease in Profits/Losses
 The console output should look like this:
 
 ![Screenshot of ](./screenshot.png)
+
+# Hosted
+
+You can see a live version at
