@@ -13,6 +13,7 @@ const monthlyChange = finances.map((row, index) => {
 });
 
 // Calculate Total Monthly Change
+const totalMonthlyChange = monthlyChange.reduce((a, b) => a + b, 0);
 
 // Calculate Average Change
 
