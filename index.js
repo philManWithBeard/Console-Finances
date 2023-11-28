@@ -39,3 +39,18 @@ const maxMonth = monthlyChange.reduce(
 );
 
 // Output Results
+
+const output = `
+  Financial Analysis
+  ----------------
+  Total Months: ${totalMonths}
+  Total: $${totalProfit}
+  Average Change: ${averageChange.toFixed(2)}
+  Greatest Increase in Profits/Losses: ${
+    finances[maxMonth + 1][0]
+  } ($${maxChange})
+  Greatest Decrease in Profits/Losses: ${
+    finances[minMonth + 1][0]
+  } ($${minChange})`;
+
+console.log(output);
