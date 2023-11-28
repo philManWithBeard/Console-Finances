@@ -22,6 +22,11 @@ const averageChange = totalMonthlyChange / (monthlyChange.length - 1);
 const minChange = Math.min(...monthlyChange);
 
 // Calculate Month of Minimum Change
+const minMonth = monthlyChange.reduce(
+  (maxIndex, currentValue, currentIndex, array) =>
+    currentValue < array[maxIndex] ? currentIndex : maxIndex,
+  0
+);
 
 // Calculate Maximum Change
 
