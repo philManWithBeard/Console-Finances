@@ -19,6 +19,7 @@ const totalMonthlyChange = monthlyChange.reduce((a, b) => a + b, 0);
 const averageChange = totalMonthlyChange / (monthlyChange.length - 1);
 
 // Calculate Minimum Change
+const minChange = Math.min(...monthlyChange);
 
 // Calculate Month of Minimum Change
 
