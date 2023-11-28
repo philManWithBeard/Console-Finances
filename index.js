@@ -5,6 +5,7 @@ import { finances } from "./finance-data.js";
 const totalMonths = finances.length;
 
 // Calculates the total profit by reducing the profit value in the 2d array
+const totalProfit = finances.reduce((a, b) => a + b[1], 0);
 
 // Create an array of the monthly changes
 
