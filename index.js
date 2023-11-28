@@ -29,6 +29,7 @@ const minMonth = monthlyChange.reduce(
 );
 
 // Calculate Maximum Change
+const maxChange = Math.max(...monthlyChange);
 
 // Calculate Month of Maximum Change
 
