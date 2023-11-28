@@ -32,5 +32,10 @@ const minMonth = monthlyChange.reduce(
 const maxChange = Math.max(...monthlyChange);
 
 // Calculate Month of Maximum Change
+const maxMonth = monthlyChange.reduce(
+  (maxIndex, currentValue, currentIndex, array) =>
+    currentValue > array[maxIndex] ? currentIndex : maxIndex,
+  0
+);
 
 // Output Results
