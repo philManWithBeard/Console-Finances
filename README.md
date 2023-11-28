@@ -11,7 +11,6 @@ This project iterates over a 2D array of monthly profits to calculate:
 # Install
 
 1. NPM Install
-
 2. Open a console, go to project directory and type node .
 
 # Output
@@ -22,4 +21,4 @@ The console output should look like this:
 
 # Hosted
 
-You can see a live version at
+You can see a live version at https://philmanwithbeard.github.io/Console-Finances/
